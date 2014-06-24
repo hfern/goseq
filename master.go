@@ -52,6 +52,19 @@ var (
 	favored_server int = 2
 
 	MasterServerTimeout time.Duration = 5 * time.Second
+
+	// Region => English Names
+	RegionNames = map[Region]string{
+		USEast:       "United States (East)",
+		USWest:       "United States (West)",
+		SouthAmerica: "South America",
+		Europe:       "Europe",
+		Asia:         "Asia",
+		Australia:    "Australia",
+		MiddleEast:   "Middle East",
+		Africa:       "Africa",
+		RestOfWorld:  "Rest of World",
+	}
 )
 
 var (
